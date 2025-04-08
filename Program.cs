@@ -11,7 +11,7 @@ namespace CompetitiveProgramming
 {
     public class Program
     {
-        static void ProgrammingTeamEntryPoint()
+        public static void Main(string[] args)
         {
             // Check Memory 
             long memoryBefore = GC.GetTotalMemory(false);
@@ -22,7 +22,7 @@ namespace CompetitiveProgramming
             stopwatch.Start();
 
             // Run the program
-            ProgrammingTeam();
+            //TestProblem2092A();
 
             // Measure memory usage after allocation
             long memoryAfter = GC.GetTotalMemory(false);

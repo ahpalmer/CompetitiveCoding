@@ -10,7 +10,7 @@ namespace CompetitiveProgramming.CodeForces
 {
     public class Problem231B
     {
-        public static void Main(string[] args)
+        public static void notMain(string[] args)
         {
             List<int> inputs = GetInput();
             List<int> cards = new List<int>();
